@@ -5,6 +5,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1", "Chapter 1", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SayHello", "SayHello\SayHello.csproj", "{79EAF42E-A808-4FAB-9CD1-D55895C0C251}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleAndEvent", "HandleAndEvent\HandleAndEvent.csproj", "{1DB5FA03-93C3-4720-ADDA-2A4235926647}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,16 @@ Global
 		{79EAF42E-A808-4FAB-9CD1-D55895C0C251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79EAF42E-A808-4FAB-9CD1-D55895C0C251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79EAF42E-A808-4FAB-9CD1-D55895C0C251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB5FA03-93C3-4720-ADDA-2A4235926647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB5FA03-93C3-4720-ADDA-2A4235926647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB5FA03-93C3-4720-ADDA-2A4235926647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB5FA03-93C3-4720-ADDA-2A4235926647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79EAF42E-A808-4FAB-9CD1-D55895C0C251} = {188592B0-18A3-403F-9A52-37F676EE1019}
+		{1DB5FA03-93C3-4720-ADDA-2A4235926647} = {188592B0-18A3-403F-9A52-37F676EE1019}
 	EndGlobalSection
 EndGlobal
