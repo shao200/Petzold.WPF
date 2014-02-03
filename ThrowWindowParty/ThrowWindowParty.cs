@@ -24,6 +24,8 @@ namespace Petzold.ThrowWindowParty
             {
                 Window win = new Window();
                 win.Title = "Extra window No. " + (i + 1);
+                win.ShowInTaskbar = false;
+                win.Owner = winMain;
                 win.Show();
             }
         }
