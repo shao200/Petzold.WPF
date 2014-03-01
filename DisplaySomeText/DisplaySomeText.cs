@@ -18,6 +18,13 @@ namespace Petzold.DisplaySomeText
         {
             Title = "Display Some Text";
             Content = "Content can be simple text!";
+            FontFamily = new FontFamily("Times New Roman");
+            FontSize = 32;
+            FontStyle = FontStyles.Oblique;
+            FontWeight = FontWeights.Bold;
+            Brush brush = new LinearGradientBrush(Colors.Black, Colors.White, new Point(0, 0), new Point(1, 1));
+            Background = brush;
+            Foreground = brush;
         }
     }
 }
