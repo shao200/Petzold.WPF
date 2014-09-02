@@ -9,7 +9,7 @@ namespace Petzold.SayHello
         public static void Main()
         {
             Window win = new Window();
-            win.Title = "Say Hello";
+            win.Title = "Say Hello fuckin world";
             win.Show();
 
             Application app = new Application();
